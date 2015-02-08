@@ -1,22 +1,30 @@
 
 
-#navigation {
+#navigation {              /*div containing navig table*/
     background-color: #656565;
-    color: white;
-    overflow: auto;
     margin: 5px;
-    padding-bottom: 5px;
-    position: relative;
+    padding: 5px;
+}
+
+#navigation table {                    /*table*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 
-.nav {
-    list-style-type: none;
-    float: left;
+#navigation td {                      /*td*/
     font-size: 1.25em;
-    margin:0;
-    padding:0;
-    position: absolute;
 
+}
 
+a:link,a:visited{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: #B0B0B0;
 }
