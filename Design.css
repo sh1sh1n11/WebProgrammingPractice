@@ -1,0 +1,22 @@
+
+
+#navigation {
+    background-color: #656565;
+    color: white;
+    overflow: auto;
+    margin: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+
+.nav {
+    list-style-type: none;
+    float: left;
+    font-size: 1.25em;
+    margin:0;
+    padding:0;
+    position: absolute;
+
+
+}
