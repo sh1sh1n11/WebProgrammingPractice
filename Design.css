@@ -18,13 +18,50 @@
 
 }
 
-a:link,a:visited{
+#navigation_personal {              /*div containing navig table*/
+    background-color: #D3222A;
+    margin: 5px;
+    padding: 5px;
+}
+
+#navigation_personal table {                    /*table*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+#navigation_personal td {                      /*td*/
+    font-size: 1.25em;
+
+
+}
+
+a.CommonMenu:link,a.CommonMenu:visited,a.personal:link,a.personal:visited{
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
 }
 
-a:hover,a:active{
+a.CommonMenu:hover,a.CommonMenu:active{
     color: #B0B0B0;
+}
+
+a.personal:hover,a.personal:active{
+    color: #BA1E26;
+}
+
+.creativity {
+    background-image: url(Paper_texture_v5_by_bashcorpo.jpg);
+    overflow: auto;
+    text-align: center;
+    color: black;
+    text-decoration:none;
+}
+
+#daggertail {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
 }
