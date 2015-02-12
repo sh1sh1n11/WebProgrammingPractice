@@ -95,3 +95,10 @@ iframe.small_right {
 #artwork {
     text-decoration: underline;
 }
+
+#shanky {
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-right:1em;
+}
