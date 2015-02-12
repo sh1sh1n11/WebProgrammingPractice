@@ -114,7 +114,6 @@ iframe.small_right {
     background-color: white;
 }
 
-
 .r_big, .r_heading {
     font-size: 1.5em;
     line-height: 200%
@@ -144,7 +143,7 @@ iframe.small_right {
 
 }
 
-#resume_page, #body_contact {
+#resume_page, #body_contact, #body_home {
     background-color: #E9E9E9;
 }
 
@@ -159,4 +158,37 @@ iframe.small_right {
 #leaveypic, #vasavipic, #karvypic, #liquidhubpic {
     float:right;
     margin-right:10%;
+}
+
+#jsHW1 {
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    overflow:auto;
+    margin-top:2%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hw_title {
+    font-size: 1.2em;
+    text-decoration:underline;
+}
+
+#jsHW1_part1 {
+    margin-top:2%;
+}
+
+#jsHW1_part2 {
+    margin-top:2%;
+    margin-left:-1%;
+    margin-bottom:3%;
+}
+
+#jsHW1_part3 {
+    margin-left:13%;
+}
+
+span.hw_footer {
+    text-align:right;
 }
