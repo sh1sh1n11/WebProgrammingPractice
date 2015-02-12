@@ -19,7 +19,8 @@
 }
 
 #navigation_personal {              /*div containing navig table*/
-    background-color: #D3222A;
+    background-color:#D3222A;
+    /*background-image: url(Paper_texture_v5_by_bashcorpo.jpg);*/
     margin: 5px;
     padding: 5px;
 }
@@ -70,7 +71,7 @@ a.personal:hover,a.personal:active{
 iframe.big_left, iframe.big_right, iframe.small_left, iframe.small_right {
     float: left;
     margin-bottom:5%;
-    border: 5px solid black;
+    border: 2px solid black;
 }
 iframe.big_left {
     margin-left:5%;
@@ -104,7 +105,7 @@ iframe.small_right {
     margin-bottom:10px;
 }
 
-#r_intro, #r_experience, #r_skills, #r_projects, #r_education {
+#r_intro, #r_experience, #r_skills, #r_projects, #r_education, #contact {
     width:70%;
     margin-left: auto;
     margin-right: auto;
@@ -138,12 +139,12 @@ iframe.small_right {
     margin-left:-3%;
 }
 
-#r_intro_text {
+#r_intro_text, #contact_text {
     margin-top:0;
 
 }
 
-#resume_page {
+#resume_page, #body_contact {
     background-color: #E9E9E9;
 }
 
@@ -153,4 +154,9 @@ iframe.small_right {
 
 .r_skills {
     background-color:#F0F0F0;
+}
+
+#leaveypic, #vasavipic, #karvypic, #liquidhubpic {
+    float:right;
+    margin-right:10%;
 }
