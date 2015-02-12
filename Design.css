@@ -1,5 +1,4 @@
-
-
+/* Navigation below*/
 #navigation {              /*div containing navig table*/
     background-color: #656565;
     margin: 5px;
@@ -11,7 +10,6 @@
     padding: 0;
     width: 100%;
 }
-
 
 #navigation td {                      /*td*/
     font-size: 1.25em;
@@ -31,10 +29,8 @@
     width: 100%;
 }
 
-
 #navigation_personal td {                      /*td*/
     font-size: 1.25em;
-
 
 }
 
@@ -52,7 +48,9 @@ a.CommonMenu:hover,a.CommonMenu:active{
 a.personal:hover,a.personal:active{
     color: #BA1E26;
 }
+/* Navigation above*/
 
+/* artwork below*/
 .creativity {
     background-image: url(Paper_texture_v5_by_bashcorpo.jpg);
     overflow: auto;
@@ -97,6 +95,13 @@ iframe.small_right {
     text-decoration: underline;
 }
 
+#body_personal {
+    background-color:#E5D3BD;
+}
+/* artwork above*/
+
+
+/*resume below*/
 #shanky {
     width: 15%;
     height: 15%;
@@ -147,9 +152,7 @@ iframe.small_right {
     background-color: #E9E9E9;
 }
 
-#body_personal {
-    background-color:#E5D3BD;
-}
+
 
 .r_skills {
     background-color:#F0F0F0;
@@ -159,7 +162,9 @@ iframe.small_right {
     float:right;
     margin-right:10%;
 }
+/*resume above*/
 
+/* Homework page below*/
 #jsHW1 {
     margin-left: auto;
     margin-right: auto;
@@ -192,3 +197,4 @@ iframe.small_right {
 span.hw_footer {
     text-align:right;
 }
+/* Homework page above */
