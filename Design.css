@@ -70,11 +70,28 @@ a.personal:hover,a.personal:active{
 iframe.big_left, iframe.big_right, iframe.small_left, iframe.small_right {
     float: left;
     margin-bottom:5%;
+    border: 5px solid black;
 }
 iframe.big_left {
-    margin-left:6%;
+    margin-left:5%;
 }
 
 iframe.big_right {
     margin-left: 9%;
+}
+
+iframe.small_left {
+    margin-left:10%;
+}
+
+iframe.small_right {
+    margin-left:20%;
+}
+
+#channel {
+    margin: 5%;
+}
+
+#artwork {
+    text-decoration: underline;
 }
