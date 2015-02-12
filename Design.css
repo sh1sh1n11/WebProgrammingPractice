@@ -100,17 +100,48 @@ iframe.small_right {
     width: 15%;
     height: 15%;
     float: left;
-    margin-right:2px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
-#resume {
+#r_intro {
     width:70%;
     margin-left: auto;
     margin-right: auto;
     overflow:auto;
     margin-top: 10%;
+    background-color: white;
 }
 
-#Shashank {
+.r_big {
+    font-size: 1.5em;
+    line-height: 200%
+}
+
+.r_medium {
     font-size: 1.3em;
+    line-height: 200%;
+}
+
+.r_small {
+    font-size: 1em;
+    line-height: 200%;
+}
+
+.r_very_small {
+    font-size: 0.9em;
+    line-height: 200%;
+}
+
+#r_intro_text {
+    margin-top:0;
+
+}
+
+#resume_page {
+    background-color: #E9E9E9;
+}
+
+#body_personal {
+    background-color:#E5D3BD;
 }
