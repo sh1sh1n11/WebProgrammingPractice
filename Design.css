@@ -64,4 +64,17 @@ a.personal:hover,a.personal:active{
     display: block;
     margin-left:auto;
     margin-right:auto;
+    border: 3px solid black;
+}
+
+iframe.big_left, iframe.big_right, iframe.small_left, iframe.small_right {
+    float: left;
+    margin-bottom:5%;
+}
+iframe.big_left {
+    margin-left:6%;
+}
+
+iframe.big_right {
+    margin-left: 9%;
 }
