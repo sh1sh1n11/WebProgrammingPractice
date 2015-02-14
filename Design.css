@@ -15,8 +15,8 @@
 }
 
 #navigation_personal {              /*div containing navig table*/
-    background-color:#D3222A;
-    /*background-image: url(Paper_texture_v5_by_bashcorpo.jpg);*/
+    /*background-color:#D3222A;*/
+    background-image: url(wood-texture-abstract-hd-wallpaper-1920x1080-7786.jpg);
     padding:0.25%;
 }
 
@@ -29,9 +29,16 @@
 
 }
 
-a.CommonMenu:link,a.CommonMenu:visited,a.personal:link,a.personal:visited{
+a.CommonMenu:link,a.CommonMenu:visited {
     display: block;
     color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.personal:link,a.personal:visited {
+    display: block;
+    color: whitesmoke;
     text-align: center;
     text-decoration: none;
 }
@@ -41,7 +48,8 @@ a.CommonMenu:hover,a.CommonMenu:active{
 }
 
 a.personal:hover,a.personal:active{
-    color: #BA1E26;
+    /*color: #BA1E26;*/
+    color:#8D4C30;
 }
 /* Navigation above*/
 
@@ -58,7 +66,7 @@ a.personal:hover,a.personal:active{
     display: block;
     margin-left:auto;
     margin-right:auto;
-    border: 3px solid black;
+    border: 0.1875em solid black;
 }
 
 iframe.big_left, iframe.big_right, iframe.small_left, iframe.small_right {
