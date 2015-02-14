@@ -1,13 +1,11 @@
 /* Navigation below*/
 #navigation {              /*div containing navig table*/
     background-color: #656565;
-    margin: 5px;
-    padding: 5px;
+    padding:0.25%;
+    margin-bottom:5%;
 }
 
 #navigation table {                    /*table*/
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
 
@@ -19,13 +17,10 @@
 #navigation_personal {              /*div containing navig table*/
     background-color:#D3222A;
     /*background-image: url(Paper_texture_v5_by_bashcorpo.jpg);*/
-    margin: 5px;
-    padding: 5px;
+    padding:0.25%;
 }
 
 #navigation_personal table {                    /*table*/
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
 
@@ -67,31 +62,37 @@ a.personal:hover,a.personal:active{
 }
 
 iframe.big_left, iframe.big_right, iframe.small_left, iframe.small_right {
-    float: left;
+    margin-left:auto;
+    margin-right:auto;
     margin-bottom:5%;
-    border: 2px solid black;
+    border: 0.125em solid black;
 }
 iframe.big_left {
-    margin-left:5%;
+
+
+
 }
 
 iframe.big_right {
-    margin-left: 9%;
+
 }
 
 iframe.small_left {
-    margin-left:10%;
+
 }
 
 iframe.small_right {
-    margin-left:20%;
+
 }
 
 #channel {
-    margin: 5%;
+    margin-bottom:2%;
+    margin-top:5%;
+
 }
 
 #artwork {
+    margin-top:5%;
     text-decoration: underline;
 }
 
@@ -106,8 +107,10 @@ iframe.small_right {
     width: 15%;
     height: 15%;
     float: left;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-right:3%;
+    margin-left:3%;
 }
 
 #r_intro, #r_experience, #r_skills, #r_projects, #r_education, #contact {
@@ -122,6 +125,10 @@ iframe.small_right {
 .r_big, .r_heading {
     font-size: 1.5em;
     line-height: 200%
+}
+
+.r_heading {
+    margin-left:3%;
 }
 
 .r_medium {
@@ -140,7 +147,7 @@ iframe.small_right {
 }
 
 .r_text {
-    margin-left:-3%;
+    /*margin-left:-3%;*/
 }
 
 #r_intro_text, #contact_text {
@@ -152,6 +159,10 @@ iframe.small_right {
     background-color: #E9E9E9;
 }
 
+.r_experience_divs, .r_skills_divs, .r_projects_divs, .r_education_divs, #contact_text {
+    margin-left:7%;
+    margin-right:7%;
+}
 
 
 .r_skills {
@@ -160,7 +171,8 @@ iframe.small_right {
 
 #leaveypic, #vasavipic, #karvypic, #liquidhubpic {
     float:right;
-    margin-right:10%;
+    margin-right:7%;
+    margin-left:3%;
 }
 /*resume above*/
 
@@ -170,9 +182,12 @@ iframe.small_right {
     margin-right: auto;
     width:70%;
     overflow:auto;
-    margin-top:2%;
-    border: 1px solid black;
+    border: 0.0625em solid black;
     text-align: center;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:2%;
 }
 
 .hw_title {
@@ -181,17 +196,21 @@ iframe.small_right {
 }
 
 #jsHW1_part1 {
-    margin-top:2%;
+
+    float:left;
+    position:relative;
+    border:0.0625em solid black;
+    left:5%;
+    padding:3%;
 }
 
 #jsHW1_part2 {
-    margin-top:2%;
-    margin-left:-1%;
-    margin-bottom:3%;
-}
+    float:right;
+    position:relative;
+    border:0.0625em solid black;
+    right:5%;
+    padding:3%;
 
-#jsHW1_part3 {
-    margin-left:13%;
 }
 
 span.hw_footer {
